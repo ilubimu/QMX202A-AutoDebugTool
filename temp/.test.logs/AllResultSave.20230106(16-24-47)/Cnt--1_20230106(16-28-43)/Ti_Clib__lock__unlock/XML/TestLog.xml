@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="GBK" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="D:/WorkSpace/CCSV7.4/AutoTool_Debug/RunningResult/XML/DefaultStylesheet.xsl"?>
+<!--*************************************************************************-->
+<!-- Copyright (c) 2021-2024. KHTC Cooperation.                              -->
+<!-- AUTOMATED INCENTIVE GENERATION TOOLS.                                   -->
+<!-- @File: TestLog.xml.                                                     -->
+<!-- @Author: @RuoDu.                                                        -->
+<!-- All rights reserved.                                                    -->
+<!--*************************************************************************-->
+
+<log>
+    <record>
+        <date>2023-01-06T16:28:06</date>
+        <millis>1672993686817</millis>
+        <sequence>151</sequence>
+        <logger>com.ti</logger>
+        <level>INFO</level>
+        <class>com.ti.ccstudio.scripting.environment.ScriptingEnvironment</class>
+        <method>traceWrite</method>
+        <thread>24</thread>
+        <message>TEST SUCCEEDED!</message>
+    </record>
+</log>

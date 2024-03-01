@@ -1,0 +1,186 @@
+This log records only the primary running status information
+D:\WorkSpace\ScriptToolsWorkSpace\PyWorkSpace\QMX202A\AutoTool_Debug\AutoTool_Debug\package\dist
+****************************************************************************************************
+
+2024-02-29 10:18:14,072 - ['D:\\WorkSpace\\ScriptToolsWorkSpace\\PyWorkSpace\\QMX202A\\tmp\\test', 'D:\\WorkSpace\\ScriptToolsWorkSpace\\PyWorkSpace\\QMX202A\\tmp\\test\\test']
+2024-02-29 10:18:14,072 - ['D:\\WorkSpace\\ScriptToolsWorkSpace\\PyWorkSpace\\QMX202A\\tmp\\test', 'D:\\WorkSpace\\ScriptToolsWorkSpace\\PyWorkSpace\\QMX202A\\tmp\\test\\test']
+2024-02-29 10:18:14,072 - [{'GelPath': 'No', 'GelScript': 'StartProfile()'}]
+2024-02-29 10:18:14,073 - [{'index_count': 'ON', 'user_count_start': '1'}, {'RunningType': 'Travel'}, 1, LoadExportRun]
+2024-02-29 10:18:14,073 - [{'RunningMode': 'Run', 'Reset': '0', 'Timeout': '15000'}, {'RightStop_flag': 'Right', 'ErrorStop_flag': 'ErrorStop'}]
+2024-02-29 10:18:14,073 - [{'Name': 'M0', 'StartAddress': '0x0000', 'AddressLength': '0x200'}, {'Name': 'M1', 'StartAddress': '0x0400', 'AddressLength': '0x200'}, {'Name': 'LS4', 'StartAddress': '0xA000', 'AddressLength': '0x400'}, {'Name': 'LS5', 'StartAddress': '0xA800', 'AddressLength': '0x400'}, {'Name': 'LS6', 'StartAddress': '0xB000', 'AddressLength': '0x400'}, {'Name': 'LS7', 'StartAddress': '0xB800', 'AddressLength': '0x400'}, {'Name': 'GS0', 'StartAddress': '0xC000', 'AddressLength': '0x400'}]
+2024-02-29 10:18:14,074 - ['EXECUTE']
+2024-02-29 10:18:14,176 - Scanning...
+
+2024-02-29 10:18:14,176 - Searching path: D:\WorkSpace\ScriptToolsWorkSpace\PyWorkSpace\QMX202A\tmp\test\test
+2024-02-29 10:18:14,178 - Status: D:\WorkSpace\ScriptToolsWorkSpace\PyWorkSpace\QMX202A\AutoTool_Debug\AutoTool_Debug\package\dist\TestDDT.json - True
+
+2024-02-29 10:18:14,179 - Parasing the configuration file...
+2024-02-29 10:18:14,179 - Env initialize completes
+
+2024-02-29 10:18:14,490 - Verifying licenses...
+2024-02-29 10:18:16,976 - Licenses verified
+
+2024-02-29 10:18:17,421 - Starting board connection test...
+2024-02-29 10:18:17,421 - Building the folder construction for CCS connection test...
+2024-02-29 10:18:17,422 - Residual test directory cleanning...
+2024-02-29 10:18:17,426 - Build Env: C:\Users\dell\AppData\Local\Temp\TEST_pdiioosm_CCS_CONNECTION
+2024-02-29 10:18:17,427 - Folder construction build completes
+2024-02-29 10:18:17,427 - Building JS file for CCS connection test...
+2024-02-29 10:18:17,428 - JS file construct complete
+2024-02-29 10:18:17,428 - C:/Users/dell/AppData/Local/Temp/TEST_pdiioosm_CCS_CONNECTION/RunningResult/JsScript/FirstVersion.js
+2024-02-29 10:18:17,429 - JS file refactoring complete
+2024-02-29 10:18:17,429 - Connection test JS build completes
+2024-02-29 10:18:17,429 - call C:/ti/ccs1250/ccs/ccs_base/scripting/bin/dss.bat C:/Users/dell/AppData/Local/Temp/TEST_pdiioosm_CCS_CONNECTION/RunningResult/JsScript/FirstVersion.js
+2024-02-29 10:18:26,095 - 0.002062799991108477
+2024-02-29 10:18:26,095 - 操作状态: True, 结果文件路径: C:/Users/dell/AppData/Local/Temp/TEST_pdiioosm_CCS_CONNECTION/RunningResult/XML/TestLog.data
+2024-02-29 10:18:26,103 - 0.007029299973510206
+2024-02-29 10:18:26,103 - 操作状态: True, 结果文件路径: C:/Users/dell/AppData/Local/Temp/TEST_pdiioosm_CCS_CONNECTION/RunningResult/Memory
+2024-02-29 10:18:26,106 - Board connection test: PASS
+
+2024-02-29 10:18:26,467 - Folder structure preparing...
+2024-02-29 10:18:26,862 - Folder structure built
+2024-02-29 10:18:26,964 - Indexing...
+2024-02-29 10:18:27,396 - Searching path: D:\WorkSpace\ScriptToolsWorkSpace\PyWorkSpace\QMX202A\tmp\test\test
+2024-02-29 10:18:27,398 - Status: D:\WorkSpace\ScriptToolsWorkSpace\PyWorkSpace\QMX202A\AutoTool_Debug\AutoTool_Debug\package\dist\TestDDT.json - False
+	1 - D:\WorkSpace\ScriptToolsWorkSpace\PyWorkSpace\QMX202A\tmp\test\test\VCRC_Single_CRC\Debug\VCRC_Single_CRC.out
+	2 - D:\WorkSpace\ScriptToolsWorkSpace\PyWorkSpace\QMX202A\tmp\test\test\VCRC_Single_CRC1\Debug\VCRC_Single_CRC1.out
+	3 - D:\WorkSpace\ScriptToolsWorkSpace\PyWorkSpace\QMX202A\tmp\test\test\VCRC_Single_CRC2\Debug\VCRC_Single_CRC2.out
+	4 - D:\WorkSpace\ScriptToolsWorkSpace\PyWorkSpace\QMX202A\tmp\test\test\VCRC_Single_CTRL\Debug\VCRC_Single_CTRL.out
+	5 - D:\WorkSpace\ScriptToolsWorkSpace\PyWorkSpace\QMX202A\tmp\test\test\VCRC_Single_MOV\Debug\VCRC_Single_MOV.out
+2024-02-29 10:18:27,398 - Indexing completes
+2024-02-29 10:18:27,600 - Reindexing...
+2024-02-29 10:18:28,373 - Reindexing completes
+
+2024-02-29 10:18:28,873 - Total projects amount to run: 5
+2024-02-29 10:18:28,973 - Running Mode: Travel(1, 5) - LoadExportRun
+
+2024-02-29 10:18:29,364 - Running in round 1
+2024-02-29 10:18:29,364 - SetUpClass Execution Complete
+2024-02-29 10:18:29,519 - setUp Execution Complete
+
+2024-02-29 10:18:29,647 - Test Case: 1 - VCRC_Single_CRC
+	D:/WorkSpace/ScriptToolsWorkSpace/PyWorkSpace/QMX202A/tmp/test/RunningResult/CIO/CIOFile.txt
+	D:/WorkSpace/ScriptToolsWorkSpace/PyWorkSpace/QMX202A/tmp/test/RunningResult/Memory/MemoryFile.dat
+	D:/WorkSpace/ScriptToolsWorkSpace/PyWorkSpace/QMX202A/tmp/test/RunningResult/XML/XML.xml
+	D:/WorkSpace/ScriptToolsWorkSpace/PyWorkSpace/QMX202A/tmp/test/RunningResult/JsScript/FirstVersion.js
+	D:/WorkSpace/ScriptToolsWorkSpace/PyWorkSpace/QMX202A/tmp/test/RunningResult/ResultAddressData/Date.txt
+2024-02-29 10:18:29,649 - JS file construct complete
+2024-02-29 10:18:29,649 - D:/WorkSpace/ScriptToolsWorkSpace/PyWorkSpace/QMX202A/tmp/test/RunningResult/JsScript/FirstVersion.js
+2024-02-29 10:18:29,650 - JS file refactoring complete
+2024-02-29 10:18:29,650 - call C:/ti/ccs1250/ccs/ccs_base/scripting/bin/dss.bat D:/WorkSpace/ScriptToolsWorkSpace/PyWorkSpace/QMX202A/tmp/test/RunningResult/JsScript/FirstVersion.js
+2024-02-29 10:18:40,810 - 0.0021958999568596482
+2024-02-29 10:18:40,810 - 操作状态: False, 结果文件路径: D:/WorkSpace/ScriptToolsWorkSpace/PyWorkSpace/QMX202A/tmp/test/RunningResult/XML/TestLog.data
+2024-02-29 10:18:40,810 - 错误详情是: Program test run result error, please check
+2024-02-29 10:18:40,811 - 错误函数是: xml_result_parsing
+2024-02-29 10:18:41,069 - 0.0062414000276476145
+2024-02-29 10:18:41,069 - 操作状态: True, 结果文件路径: D:/WorkSpace/ScriptToolsWorkSpace/PyWorkSpace/QMX202A/tmp/test/RunningResult/Memory
+2024-02-29 10:18:41,070 - Test one done, assertive judgment in progress
+2024-02-29 10:18:41,070 - 操作状态: False
+2024-02-29 10:18:41,070 - 错误详情是: False is not true : 执行异常(执行状态错误)
+2024-02-29 10:18:41,071 - 错误函数是: test_case_single
+2024-02-29 10:18:41,073 - Saving: D:\WorkSpace\ScriptToolsWorkSpace\PyWorkSpace\QMX202A\tmp\test\ProjectResult\A0001_VCRC_Single_CRC
+2024-02-29 10:18:41,073 - tearDown Execution Complete
+2024-02-29 10:18:41,231 - setUp Execution Complete
+
+2024-02-29 10:18:41,419 - Test Case: 2 - VCRC_Single_CRC1
+	D:/WorkSpace/ScriptToolsWorkSpace/PyWorkSpace/QMX202A/tmp/test/RunningResult/CIO/CIOFile.txt
+	D:/WorkSpace/ScriptToolsWorkSpace/PyWorkSpace/QMX202A/tmp/test/RunningResult/Memory/MemoryFile.dat
+	D:/WorkSpace/ScriptToolsWorkSpace/PyWorkSpace/QMX202A/tmp/test/RunningResult/XML/XML.xml
+	D:/WorkSpace/ScriptToolsWorkSpace/PyWorkSpace/QMX202A/tmp/test/RunningResult/JsScript/FirstVersion.js
+	D:/WorkSpace/ScriptToolsWorkSpace/PyWorkSpace/QMX202A/tmp/test/RunningResult/ResultAddressData/Date.txt
+2024-02-29 10:18:41,419 - JS file construct complete
+2024-02-29 10:18:41,419 - D:/WorkSpace/ScriptToolsWorkSpace/PyWorkSpace/QMX202A/tmp/test/RunningResult/JsScript/FirstVersion.js
+2024-02-29 10:18:41,420 - JS file refactoring complete
+2024-02-29 10:18:41,420 - call C:/ti/ccs1250/ccs/ccs_base/scripting/bin/dss.bat D:/WorkSpace/ScriptToolsWorkSpace/PyWorkSpace/QMX202A/tmp/test/RunningResult/JsScript/FirstVersion.js
+2024-02-29 10:18:52,558 - 0.0023934999480843544
+2024-02-29 10:18:52,558 - 操作状态: False, 结果文件路径: D:/WorkSpace/ScriptToolsWorkSpace/PyWorkSpace/QMX202A/tmp/test/RunningResult/XML/TestLog.data
+2024-02-29 10:18:52,558 - 错误详情是: Program test run result error, please check
+2024-02-29 10:18:52,559 - 错误函数是: xml_result_parsing
+2024-02-29 10:18:52,916 - 0.008820099988952279
+2024-02-29 10:18:52,917 - 操作状态: True, 结果文件路径: D:/WorkSpace/ScriptToolsWorkSpace/PyWorkSpace/QMX202A/tmp/test/RunningResult/Memory
+2024-02-29 10:18:52,918 - Test one done, assertive judgment in progress
+2024-02-29 10:18:52,918 - 操作状态: False
+2024-02-29 10:18:52,919 - 错误详情是: False is not true : 执行异常(执行状态错误)
+2024-02-29 10:18:52,919 - 错误函数是: test_case_single
+2024-02-29 10:18:52,925 - Saving: D:\WorkSpace\ScriptToolsWorkSpace\PyWorkSpace\QMX202A\tmp\test\ProjectResult\A0002_VCRC_Single_CRC1
+2024-02-29 10:18:52,926 - tearDown Execution Complete
+2024-02-29 10:18:53,085 - setUp Execution Complete
+
+2024-02-29 10:18:53,199 - Test Case: 3 - VCRC_Single_CRC2
+	D:/WorkSpace/ScriptToolsWorkSpace/PyWorkSpace/QMX202A/tmp/test/RunningResult/CIO/CIOFile.txt
+	D:/WorkSpace/ScriptToolsWorkSpace/PyWorkSpace/QMX202A/tmp/test/RunningResult/Memory/MemoryFile.dat
+	D:/WorkSpace/ScriptToolsWorkSpace/PyWorkSpace/QMX202A/tmp/test/RunningResult/XML/XML.xml
+	D:/WorkSpace/ScriptToolsWorkSpace/PyWorkSpace/QMX202A/tmp/test/RunningResult/JsScript/FirstVersion.js
+	D:/WorkSpace/ScriptToolsWorkSpace/PyWorkSpace/QMX202A/tmp/test/RunningResult/ResultAddressData/Date.txt
+2024-02-29 10:18:53,201 - JS file construct complete
+2024-02-29 10:18:53,201 - D:/WorkSpace/ScriptToolsWorkSpace/PyWorkSpace/QMX202A/tmp/test/RunningResult/JsScript/FirstVersion.js
+2024-02-29 10:18:53,201 - JS file refactoring complete
+2024-02-29 10:18:53,202 - call C:/ti/ccs1250/ccs/ccs_base/scripting/bin/dss.bat D:/WorkSpace/ScriptToolsWorkSpace/PyWorkSpace/QMX202A/tmp/test/RunningResult/JsScript/FirstVersion.js
+2024-02-29 10:19:03,969 - 0.0023017999483272433
+2024-02-29 10:19:03,969 - 操作状态: False, 结果文件路径: D:/WorkSpace/ScriptToolsWorkSpace/PyWorkSpace/QMX202A/tmp/test/RunningResult/XML/TestLog.data
+2024-02-29 10:19:03,970 - 错误详情是: Program test run result error, please check
+2024-02-29 10:19:03,971 - 错误函数是: xml_result_parsing
+2024-02-29 10:19:04,311 - 0.004887399962171912
+2024-02-29 10:19:04,311 - 操作状态: True, 结果文件路径: D:/WorkSpace/ScriptToolsWorkSpace/PyWorkSpace/QMX202A/tmp/test/RunningResult/Memory
+2024-02-29 10:19:04,311 - Test one done, assertive judgment in progress
+2024-02-29 10:19:04,311 - 操作状态: False
+2024-02-29 10:19:04,312 - 错误详情是: False is not true : 执行异常(执行状态错误)
+2024-02-29 10:19:04,312 - 错误函数是: test_case_single
+2024-02-29 10:19:04,316 - Saving: D:\WorkSpace\ScriptToolsWorkSpace\PyWorkSpace\QMX202A\tmp\test\ProjectResult\A0003_VCRC_Single_CRC2
+2024-02-29 10:19:04,316 - tearDown Execution Complete
+2024-02-29 10:19:04,477 - setUp Execution Complete
+
+2024-02-29 10:19:04,633 - Test Case: 4 - VCRC_Single_CTRL
+	D:/WorkSpace/ScriptToolsWorkSpace/PyWorkSpace/QMX202A/tmp/test/RunningResult/CIO/CIOFile.txt
+	D:/WorkSpace/ScriptToolsWorkSpace/PyWorkSpace/QMX202A/tmp/test/RunningResult/Memory/MemoryFile.dat
+	D:/WorkSpace/ScriptToolsWorkSpace/PyWorkSpace/QMX202A/tmp/test/RunningResult/XML/XML.xml
+	D:/WorkSpace/ScriptToolsWorkSpace/PyWorkSpace/QMX202A/tmp/test/RunningResult/JsScript/FirstVersion.js
+	D:/WorkSpace/ScriptToolsWorkSpace/PyWorkSpace/QMX202A/tmp/test/RunningResult/ResultAddressData/Date.txt
+2024-02-29 10:19:04,633 - JS file construct complete
+2024-02-29 10:19:04,633 - D:/WorkSpace/ScriptToolsWorkSpace/PyWorkSpace/QMX202A/tmp/test/RunningResult/JsScript/FirstVersion.js
+2024-02-29 10:19:04,634 - JS file refactoring complete
+2024-02-29 10:19:04,634 - call C:/ti/ccs1250/ccs/ccs_base/scripting/bin/dss.bat D:/WorkSpace/ScriptToolsWorkSpace/PyWorkSpace/QMX202A/tmp/test/RunningResult/JsScript/FirstVersion.js
+2024-02-29 10:19:15,077 - 0.004027099930681288
+2024-02-29 10:19:15,077 - 操作状态: False, 结果文件路径: D:/WorkSpace/ScriptToolsWorkSpace/PyWorkSpace/QMX202A/tmp/test/RunningResult/XML/TestLog.data
+2024-02-29 10:19:15,078 - 错误详情是: Program test run result error, please check
+2024-02-29 10:19:15,078 - 错误函数是: xml_result_parsing
+2024-02-29 10:19:15,319 - 0.0077890000538900495
+2024-02-29 10:19:15,319 - 操作状态: True, 结果文件路径: D:/WorkSpace/ScriptToolsWorkSpace/PyWorkSpace/QMX202A/tmp/test/RunningResult/Memory
+2024-02-29 10:19:15,319 - Test one done, assertive judgment in progress
+2024-02-29 10:19:15,320 - 操作状态: False
+2024-02-29 10:19:15,320 - 错误详情是: False is not true : 执行异常(执行状态错误)
+2024-02-29 10:19:15,320 - 错误函数是: test_case_single
+2024-02-29 10:19:15,322 - Saving: D:\WorkSpace\ScriptToolsWorkSpace\PyWorkSpace\QMX202A\tmp\test\ProjectResult\A0004_VCRC_Single_CTRL
+2024-02-29 10:19:15,323 - tearDown Execution Complete
+2024-02-29 10:19:15,514 - setUp Execution Complete
+
+2024-02-29 10:19:15,705 - Test Case: 5 - VCRC_Single_MOV
+	D:/WorkSpace/ScriptToolsWorkSpace/PyWorkSpace/QMX202A/tmp/test/RunningResult/CIO/CIOFile.txt
+	D:/WorkSpace/ScriptToolsWorkSpace/PyWorkSpace/QMX202A/tmp/test/RunningResult/Memory/MemoryFile.dat
+	D:/WorkSpace/ScriptToolsWorkSpace/PyWorkSpace/QMX202A/tmp/test/RunningResult/XML/XML.xml
+	D:/WorkSpace/ScriptToolsWorkSpace/PyWorkSpace/QMX202A/tmp/test/RunningResult/JsScript/FirstVersion.js
+	D:/WorkSpace/ScriptToolsWorkSpace/PyWorkSpace/QMX202A/tmp/test/RunningResult/ResultAddressData/Date.txt
+2024-02-29 10:19:15,706 - JS file construct complete
+2024-02-29 10:19:15,707 - D:/WorkSpace/ScriptToolsWorkSpace/PyWorkSpace/QMX202A/tmp/test/RunningResult/JsScript/FirstVersion.js
+2024-02-29 10:19:15,707 - JS file refactoring complete
+2024-02-29 10:19:15,708 - call C:/ti/ccs1250/ccs/ccs_base/scripting/bin/dss.bat D:/WorkSpace/ScriptToolsWorkSpace/PyWorkSpace/QMX202A/tmp/test/RunningResult/JsScript/FirstVersion.js
+2024-02-29 10:19:26,834 - 0.0030869999900460243
+2024-02-29 10:19:26,835 - 操作状态: False, 结果文件路径: D:/WorkSpace/ScriptToolsWorkSpace/PyWorkSpace/QMX202A/tmp/test/RunningResult/XML/TestLog.data
+2024-02-29 10:19:26,835 - 错误详情是: Program test run result error, please check
+2024-02-29 10:19:26,835 - 错误函数是: xml_result_parsing
+2024-02-29 10:19:27,056 - 0.0072749999817460775
+2024-02-29 10:19:27,056 - 操作状态: True, 结果文件路径: D:/WorkSpace/ScriptToolsWorkSpace/PyWorkSpace/QMX202A/tmp/test/RunningResult/Memory
+2024-02-29 10:19:27,057 - Test one done, assertive judgment in progress
+2024-02-29 10:19:27,057 - 操作状态: False
+2024-02-29 10:19:27,058 - 错误详情是: False is not true : 执行异常(执行状态错误)
+2024-02-29 10:19:27,059 - 错误函数是: test_case_single
+2024-02-29 10:19:27,061 - Saving: D:\WorkSpace\ScriptToolsWorkSpace\PyWorkSpace\QMX202A\tmp\test\ProjectResult\A0005_VCRC_Single_MOV
+2024-02-29 10:19:27,061 - tearDown Execution Complete
+2024-02-29 10:19:27,176 - tearDownClass Execution Complete
+2024-02-29 10:19:27,305 - Saving result files for round 1
+
+2024-02-29 10:19:28,155 - All test complete, saving result files...
+
+2024-02-29 10:19:28,332 - Cleaning files...
+2024-02-29 10:19:28,442 - All Done
+****************************************************************************************************
