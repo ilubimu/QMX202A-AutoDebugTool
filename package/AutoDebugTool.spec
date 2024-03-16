@@ -41,7 +41,7 @@ exe = EXE(
     a.zipfiles,
     a.datas,
     [],
-    name='AutoDebugTool_v1.2.6(License to 2025-01-01)',
+    name='AutoDebugTool_v1.2.7(License to 2025-01-01)',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,

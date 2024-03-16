@@ -1,15 +1,15 @@
 This log records only the primary running status information
-D:\WorkSpace\ScriptToolsWorkSpace\PyWorkSpace\QMX202A\AutoTool_Debug\AutoTool_Debug
+D:\WorkSpace\ScriptToolsWorkSpace\PyWorkSpace\MCU\QMX202A\AutoDebugTool\AutoDebugTool
 ****************************************************************************************************
 
-2024-02-29 10:06:53,340 - ['D:\\WorkSpace\\ScriptToolsWorkSpace\\PyWorkSpace\\QMX202A\\tmp\\test', 'D:\\WorkSpace\\ScriptToolsWorkSpace\\PyWorkSpace\\QMX202A\\tmp\\test\\test']
-2024-02-29 10:06:53,341 - ['D:\\WorkSpace\\ScriptToolsWorkSpace\\PyWorkSpace\\QMX202A\\tmp\\test', 'D:\\WorkSpace\\ScriptToolsWorkSpace\\PyWorkSpace\\QMX202A\\tmp\\test\\test']
-2024-02-29 10:06:53,341 - [{'GelPath': 'No', 'GelScript': 'StartProfile()'}]
-2024-02-29 10:06:53,341 - [{'index_count': 'OFF'}, {'RunningType': 'Travel'}, 1, LoadExportRun]
-2024-02-29 10:06:53,341 - [{'RunningMode': 'Run', 'Reset': '0', 'Timeout': '15000'}, {'RightStop_flag': 'Right', 'ErrorStop_flag': 'IDLE'}]
-2024-02-29 10:06:53,342 - [{'Name': 'M0', 'StartAddress': '0x0000', 'AddressLength': '0x200'}, {'Name': 'M1', 'StartAddress': '0x0400', 'AddressLength': '0x200'}, {'Name': 'LS4', 'StartAddress': '0xA000', 'AddressLength': '0x400'}, {'Name': 'LS5', 'StartAddress': '0xA800', 'AddressLength': '0x400'}, {'Name': 'LS6', 'StartAddress': '0xB000', 'AddressLength': '0x400'}, {'Name': 'LS7', 'StartAddress': '0xB800', 'AddressLength': '0x400'}, {'Name': 'GS0', 'StartAddress': '0xC000', 'AddressLength': '0x400'}]
-2024-02-29 10:06:53,342 - ['DEBUG']
-2024-02-29 10:06:53,375 - Scanning...
+2024-03-16 10:51:33,780 - ['D:\\WorkSpace\\ScriptToolsWorkSpace\\PyWorkSpace\\QMX202A\\tmp\\test', 'D:\\WorkSpace\\ScriptToolsWorkSpace\\PyWorkSpace\\QMX202A\\tmp\\test\\test']
+2024-03-16 10:51:33,780 - ['D:\\WorkSpace\\ScriptToolsWorkSpace\\PyWorkSpace\\QMX202A\\tmp\\test', 'D:\\WorkSpace\\ScriptToolsWorkSpace\\PyWorkSpace\\QMX202A\\tmp\\test\\test']
+2024-03-16 10:51:33,780 - [{'GelPath': 'No', 'GelScript': 'StartProfile()'}]
+2024-03-16 10:51:33,781 - [{'index_count': 'OFF'}, {'RunningType': 'Travel'}, 1, LoadExportRun]
+2024-03-16 10:51:33,781 - [{'RunningMode': 'Run', 'Reset': '0', 'Timeout': '15000'}, {'RightStop_flag': 'Right', 'ErrorStop_flag': 'IDLE'}]
+2024-03-16 10:51:33,782 - [{'Name': 'M0', 'StartAddress': '0x0000', 'AddressLength': '0x200'}, {'Name': 'M1', 'StartAddress': '0x0400', 'AddressLength': '0x200'}, {'Name': 'LS4', 'StartAddress': '0xA000', 'AddressLength': '0x400'}, {'Name': 'LS5', 'StartAddress': '0xA800', 'AddressLength': '0x400'}, {'Name': 'LS6', 'StartAddress': '0xB000', 'AddressLength': '0x400'}, {'Name': 'LS7', 'StartAddress': '0xB800', 'AddressLength': '0x400'}, {'Name': 'GS0', 'StartAddress': '0xC000', 'AddressLength': '0x400'}]
+2024-03-16 10:51:33,782 - ['DEBUG']
+2024-03-16 10:51:33,829 - Scanning...
 
-2024-02-29 10:06:53,375 - Searching path: D:\WorkSpace\ScriptToolsWorkSpace\PyWorkSpace\QMX202A\tmp\test\test
-2024-02-29 10:06:53,379 - Status: D:\WorkSpace\ScriptToolsWorkSpace\PyWorkSpace\QMX202A\AutoTool_Debug\AutoTool_Debug\TestDDT.json - True
+2024-03-16 10:51:33,829 - Searching path: D:\WorkSpace\ScriptToolsWorkSpace\PyWorkSpace\QMX202A\tmp\test\test
+2024-03-16 10:51:33,830 - Status: D:\WorkSpace\ScriptToolsWorkSpace\PyWorkSpace\MCU\QMX202A\AutoDebugTool\AutoDebugTool\TestDDT.json - True

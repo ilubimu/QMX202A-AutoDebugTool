@@ -45,9 +45,10 @@ var script = ScriptingEnvironment.instance();
 // Main flow
 try {{
     var DeviceCCXMLFile = "{0}";
+    var timeout = {1};
     var Core0_out = "replace::out_file";
     script.traceBegin("replace::xml_path/TestLog.xml", "replace::xml_path/DefaultStylesheet.xsl");
-    script.setScriptTimeout({1});
+    script.setScriptTimeout(timeout);
     // log set
     script.traceSetConsoleLevel(TraceLevel.INFO);
     script.traceSetFileLevel(TraceLevel.INFO);
@@ -147,9 +148,10 @@ var script = ScriptingEnvironment.instance();
 // Main flow
 try {{
     var DeviceCCXMLFile = "{0}";
+    var timeout = {1};
     var Core0_out = "replace::out_file";
     script.traceBegin("replace::xml_path/TestLog.xml", "replace::xml_path/DefaultStylesheet.xsl");
-    script.setScriptTimeout({1});
+    script.setScriptTimeout(timeout);
     // log set
     script.traceSetConsoleLevel(TraceLevel.INFO);
     script.traceSetFileLevel(TraceLevel.INFO);
@@ -196,7 +198,8 @@ try {{
     Thread.sleep(200);
     // *******************************************************
     {1}
-    
+
+    var startTime = new Date().getTime();  // Get the start time
     function_test:
         do {{
             {2}
@@ -210,6 +213,11 @@ try {{
                     script.traceWrite("Error_Stop_pc: 0x" + error_pc);
                     break function_test;
                 default:
+                    // Check if the timeout has been reached
+                    if (new Date().getTime() - startTime > timeout){{
+                        script.traceWrite("Error: Running timeout, please check.");
+                        break function_test;
+                    }}
                     continue
             }}
         }} while(1)
@@ -265,9 +273,10 @@ var script = ScriptingEnvironment.instance();
 // Main flow
 try {{
     var DeviceCCXMLFile = "{0}";
+    var timeout = {1};
     var Core0_out = "replace::out_file";
     script.traceBegin("replace::xml_path/TestLog.xml", "replace::xml_path/DefaultStylesheet.xsl");
-    script.setScriptTimeout({1});
+    script.setScriptTimeout(timeout);
     // log set
     script.traceSetConsoleLevel(TraceLevel.INFO);
     script.traceSetFileLevel(TraceLevel.INFO);
@@ -322,7 +331,8 @@ try {{
     Thread.sleep(200);
     // *******************************************************
     {2}
-    
+
+    var startTime = new Date().getTime();  // Get the start time
     function_test:
         do {{
             {3}
@@ -336,6 +346,11 @@ try {{
                     script.traceWrite("Error_Stop_pc: 0x" + error_pc);
                     break function_test;
                 default:
+                    // Check if the timeout has been reached
+                    if (new Date().getTime() - startTime > timeout){{
+                        script.traceWrite("Error: Running timeout, please check.");
+                        break function_test;
+                    }}
                     continue
             }}
         }} while(1)
@@ -391,9 +406,10 @@ var script = ScriptingEnvironment.instance();
 // Main flow
 try {{
     var DeviceCCXMLFile = "{0}";
+    var timeout = {1};
     var Core0_out = "replace::out_file";
     script.traceBegin("replace::xml_path/TestLog.xml", "replace::xml_path/DefaultStylesheet.xsl");
-    script.setScriptTimeout({1});
+    script.setScriptTimeout(timeout);
     // log set
     script.traceSetConsoleLevel(TraceLevel.INFO);
     script.traceSetFileLevel(TraceLevel.INFO);
@@ -446,7 +462,8 @@ try {{
     debugSession_0.breakpoint.removeAll();
     // *******************************************************
     {1}
-    
+
+    var startTime = new Date().getTime();  // Get the start time
     function_test:
         do {{
             {2}
@@ -460,6 +477,11 @@ try {{
                     script.traceWrite("Error_Stop_pc: 0x" + error_pc);
                     break function_test;
                 default:
+                    // Check if the timeout has been reached
+                    if (new Date().getTime() - startTime > timeout){{
+                        script.traceWrite("Error: Running timeout, please check.");
+                        break function_test;
+                    }}
                     continue
             }}
         }} while(1)
@@ -518,8 +540,9 @@ var script = ScriptingEnvironment.instance();
 // Main flow
 try {{
     var DeviceCCXMLFile = "{0}";
+    var timeout = {1};
     script.traceBegin("replace::xml_path/TestLog.xml", "replace::xml_path/DefaultStylesheet.xsl");
-    script.setScriptTimeout({1});
+    script.setScriptTimeout(timeout);
     // log set
     script.traceSetConsoleLevel(TraceLevel.INFO);
     script.traceSetFileLevel(TraceLevel.INFO);
